@@ -9,6 +9,7 @@ RUN apk add --update \
   && pip install virtualenv \
   && rm -rf /var/cache/apk/*
 
+RUN pip install --upgrade pip
 
 ENV UDPPORT 5005
 ADD udplistener.py /udplistener.py
