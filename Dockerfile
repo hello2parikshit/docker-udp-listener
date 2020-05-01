@@ -1,5 +1,4 @@
-FROM gliderlabs/alpine:3.3
-MAINTAINER	mendhak <docker@mendhak.com>
+FROM alpine
 
 RUN apk add --update \
     python \
